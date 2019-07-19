@@ -251,6 +251,7 @@ header {
   text-align: center;
 }
 .home .walk .walk-text .btn:hover {
+  border: 1px solid black;
   background: white;
   color: #22283A;
 }
