@@ -10,8 +10,8 @@
     margin: auto;
 }
 
-.buttonstyle(@btn-bg-color: #22283A; @font:white; @width: 29%;){
-    height: 11%;
+.buttonstyle(@btn-bg-color: #22283A; @font:white; @width: 29%; @height: 10px){
+    height: @height;
     background: @btn-bg-color;
     color: @font;
     width: @width;
@@ -35,6 +35,22 @@
     border-radius: 5px;
     font-size: 1.75rem;
     padding: 20px;
+    text-align: center;
+
+     &:hover {
+        background: white;
+        color: @btn-bg-color;
+    }
+}
+
+.buttonstyle3(@btn-bg-color: #22283A; @font:white; @width: 29%; @height: 5%){
+    height: @height;
+    background: @btn-bg-color;
+    color: @font;
+    width: @width;
+    border-radius: 5px;
+    font-size: 1.50rem;
+    padding: 10px;
     text-align: center;
 
      &:hover {
