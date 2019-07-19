@@ -2,6 +2,16 @@
 .navigation {
     width: 100%;
     margin-top: 1%;
+    @media @mobile {
+        .center();
+        margin-top: 1%;
+        width: 100%;
+
+        h1 {
+            margin: 10px auto;
+        }
+    }        
+        
     h1 {
         font-size: 4rem;
         .center();
@@ -18,5 +28,15 @@
         padding: 14px;
         text-decoration: none;
         }
+
+        
+    @media @mobile {
+        .center();
+        width: 100%;
+        margin: 5px auto;
+        
     }
+
+}
+
 }
