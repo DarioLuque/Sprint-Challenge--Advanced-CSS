@@ -218,15 +218,15 @@ footer {
   justify-content: center;
   align-items: center;
 }
-header {
+.home header {
   margin: auto;
 }
 @media only screen and (max-width: 500px) {
-  header {
+  .home header {
     margin: auto;
     width: 100%;
   }
-  header .bluesky {
+  .home header .bluesky {
     margin: auto;
     width: 100%;
   }
