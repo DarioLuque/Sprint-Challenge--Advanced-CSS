@@ -1,1 +1,41 @@
 // Navigation code here
+.navigation {
+    background: @nav-bg;
+    width: 100%;
+    position: fixed;
+    @media @mobile {
+        .center();
+        width: 100%;
+        h1 {
+            margin: 10px auto;
+        }
+    }        
+        
+    h1 {
+        font-size: 4rem;
+        .center();
+    }
+
+    nav {
+        margin: 15px auto;
+        margin-left: 35%;
+        width: 50%;
+    
+        a {
+        font-size: 1.60rem;
+        color: #212529;
+        padding: 14px;
+        text-decoration: none;
+        }
+
+        
+    @media @mobile {
+        .center();
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+
+}
+
+}
