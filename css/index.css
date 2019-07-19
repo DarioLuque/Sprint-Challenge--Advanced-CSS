@@ -164,8 +164,9 @@ p {
   margin: 0 auto;
 }
 .navigation {
+  background: rgba(246, 246, 246, 0.6);
   width: 100%;
-  margin-top: 1%;
+  position: fixed;
 }
 @media only screen and (max-width: 500px) {
   .navigation {
@@ -173,7 +174,6 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    margin-top: 1%;
     width: 100%;
   }
   .navigation h1 {
@@ -205,7 +205,7 @@ p {
     justify-content: center;
     align-content: center;
     width: 100%;
-    margin: 5px auto;
+    margin: 0 auto;
   }
 }
 footer {
@@ -228,8 +228,14 @@ footer {
   }
   .home header .bluesky {
     margin: auto;
+    margin-top: 100px;
     width: 100%;
   }
+}
+.home .bluesky {
+  margin: auto;
+  margin-top: 85px;
+  width: 100%;
 }
 .home .intro h2 {
   padding: 15px;
